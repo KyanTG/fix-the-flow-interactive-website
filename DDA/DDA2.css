@@ -1,0 +1,55 @@
+html {
+    margin: 0;
+
+    * {
+        box-sizing: border-box; } }
+
+
+/* styling & positie filters */
+
+.filters {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center; 
+
+    .select {
+        margin-right: 50px; } }
+
+
+/* styling & positie vacatures */
+
+.vacatures-all {
+    display: flex;
+    flex-direction: column;
+    
+    .vacatures {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1312px;
+        border-bottom: 2px solid var(--standard-color) } 
+    
+        h4 {
+            width: 516px; }
+
+            .language {
+                width: 88px; }
+
+            .type, .time, .location {
+                width: 194px; } }
+
+    .vacatures.hide {
+        translate: 100%;
+        opacity: 0;
+        height: 0;
+        border: 0;
+        transition: 0.2s ease-out;}
+
+.vacatures h4, .vacatures p, .vacatures a {
+    transition: 0.2s ease-out; }
+
+.vacatures h4.hide, .vacatures p.hide, .vacatures a.hide {
+    translate: 100%;
+    transition: 0.2s ease-out;
+
+}

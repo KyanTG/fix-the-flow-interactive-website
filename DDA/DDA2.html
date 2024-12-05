@@ -18,7 +18,15 @@
 
 
 <body>
-    <select name="vacatures">
+<div class="filters">
+
+    <!-- searchbar -->
+
+    <input class="search-bar" type="search" placeholder="search">
+
+    <!-- filter voor vacatures -->
+
+    <select class="select" name="vacatures">
         <option value="">Soort vacature</option>
         <option value="concept & design">Concept & Design</option>
         <option value="development">Development</option>
@@ -28,14 +36,18 @@
         <option value="strategie & ux">Strategie & UX</option>
     </select>
 
-    <select name="voertaal">
+    <!-- filter voor taal -->
+
+    <select class="select" name="voertaal">
         <option value="">Voertaal</option>
         <option value="eng & nl">Eng & NL</option>
         <option value="eng">Eng</option>
         <option value="nl">NL</option>
     </select>
 
-    <select name="provincie">
+    <!-- filter voor locatie -->
+
+    <select class="select" name="provincie">
         <option value="">Provincie</option>
         <option value="drenthe">Drenthe</option>
         <option value="flevoland">Flevoland</option>
@@ -49,4 +61,45 @@
         <option value="zeeland">Zeeland</option>
         <option value="zuid-holland">Zuid-Holland</option>
     </select>
+</div>
+
+<!-- openstaande Vacatures -->
+
+<section class="vacatures-all">
+    <div class="vacatures vacature-one">
+        <h4>Digital Product designer</h4>
+        <p class="language">eng & nl</p>
+        <p class="type">valsplat</p>
+        <p class="time">32-40 uur</p>
+        <p class="location">nieuwersluis</p>
+        <a href="*" class="link">bekijken</a>
+    </div>
+
+    <div class="vacatures vacature-two">
+        <h4>Traffic Manager</h4>
+        <p class="language">eng & nl</p>
+        <p class="type">triple</p>
+        <p class="time">32-40 uur</p>
+        <p class="location">aklmaar</p>
+        <a href="*" class="link">bekijken</a>
+    </div>
+
+    <div class="vacatures vacature-three">
+        <h4>React Frontend Specialist</h4>
+        <p class="language">nl</p>
+        <p class="type">valsplat</p>
+        <p class="time">32-40 uur</p>
+        <p class="location">nieuwersluis</p>
+        <a href="*" class="link">bekijken</a>
+    </div>
+
+    <div class="vacatures vacature-four">
+        <h4>Design lead</h4>
+        <p class="language">eng & nl</p>
+        <p class="type">fabrique</p>
+        <p class="time">32-40 uur</p>
+        <p class="location">amsterdam</p>
+        <a href="*" class="link">bekijken</a>
+    </div>
+</section>
 </body>
