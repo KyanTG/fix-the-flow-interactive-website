@@ -27,7 +27,8 @@ html {
         flex-direction: row;
         align-items: center;
         width: 1312px;
-        border-bottom: 2px solid var(--standard-color) } 
+        border-bottom: 2px solid var(--standard-color);
+        transition: 0.2s ease-in-out;} 
     
         h4 {
             width: 516px; }
@@ -38,18 +39,18 @@ html {
             .type, .time, .location {
                 width: 194px; } }
 
-    .vacatures.hide {
-        translate: 100%;
-        opacity: 0;
-        height: 0;
-        border: 0;
-        transition: 0.2s ease-out;}
-
 .vacatures h4, .vacatures p, .vacatures a {
-    transition: 0.2s ease-out; }
+    transition: 0.2s ease-in-out; }
 
-.vacatures h4.hide, .vacatures p.hide, .vacatures a.hide {
-    translate: 100%;
-    transition: 0.2s ease-out;
+.vacatures.hide {
+    transform: translateX(100%);
+    opacity: 0;
+    border: 0;
+    height: 0;
+    transition: 0.01s ease-in-out; }
 
-}
+
+    .vacatures h4.hide, .vacatures p.hide, .vacatures a.hide {
+        transform: translateX(100%);
+        font-size: 0;
+        padding: 0; }
