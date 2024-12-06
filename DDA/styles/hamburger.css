@@ -1,0 +1,49 @@
+.hamburger span {
+    position: absolute;
+    width: 50%;
+    height: 6px;
+    background: var(--standard-color);
+    transition: all 0.2s ease-in-out; }
+
+.hamburger span:nth-child(odd) {
+    left: 0; }
+
+.hamburger span:nth-child(even) {
+    left: 50%; }
+
+.hamburger span:nth-child(1), .hamburger span:nth-child(2) {
+    top:0; }
+
+.hamburger span:nth-child(3), .hamburger span:nth-child(4) {
+    top:13px; }   
+    
+.hamburger span:nth-child(5), .hamburger span:nth-child(6) {
+    top:26px; }  
+    
+.hamburger-open .hamburger span:nth-child(1), .hamburger-open .hamburger span:nth-child(6) {
+    transform: rotate(45deg); }
+
+.hamburger-open .hamburger span:nth-child(2), .hamburger-open .hamburger span:nth-child(5) {
+    transform: rotate(-45deg); }  
+
+.hamburger-open .hamburger span:nth-child(1) {
+    top: 8px;
+    left: 5px; }
+
+.hamburger-open .hamburger span:nth-child(2) {
+    top: 8px;
+    left: calc(50% - 5px); }
+
+.hamburger-open .hamburger span:nth-child(3) {
+    opacity: 0; }
+
+.hamburger-open .hamburger span:nth-child(4) { 
+    opacity: 0; }
+
+.hamburger-open .hamburger span:nth-child(5) { 
+    top: 19px;
+    left: 5px; }
+
+.hamburger-open .hamburger span:nth-child(6) { 
+    top: 19px;
+    left: calc(50% - 5px); }
