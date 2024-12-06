@@ -361,9 +361,6 @@ path {
             outline-offset: -1px; 
             width: 252px;
             height: 252px; } }
-
-            /* height: 272px */
-            /* width: 272px;  */
         
         .naam-medewerker {
             font-size: 24px;
@@ -371,8 +368,6 @@ path {
             padding-top: 24px;
             text-transform: none;
             width: 252px; }   
-            
-             /* width: 272px;  */
 
         .infopersoon {
             font-family: var(--secondary-font);
@@ -381,8 +376,6 @@ path {
             padding-top: 16px; 
             padding-bottom: 64px;
             width: 252px; }
-
-             /* width: 272px;  */
 
         .container-links-personen {
             display: flex;
@@ -439,7 +432,14 @@ path {
             width: 256.75px;
             height: 416px; }}
         
-        }
+        .naam-medewerker  {
+            width: 256.75px;
+            line-height: var(--line-height-m);
+            font-size: var(--font-size-m); }
+        
+        .infopersoon {
+            width: 256.75px;
+            font-size: var(--font-size-paragraph); }}
 
 
 .partner {
