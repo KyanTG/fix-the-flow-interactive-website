@@ -11,7 +11,6 @@ body, h3, p, a {
 h1, h2, h3, h4, h5, p {
     font-family: var(--main-font) ;}
 
-
 h2 {
     line-height: var(--line-height-s) }
 
@@ -162,13 +161,13 @@ path {
 
         nav ul { 
             display: flex;
-            justify-content: space-between; } 
-        
-        .links-links, .links-rechts {
-            display: flex;
             justify-content: space-between;
+            gap: 32px; } 
+        
+         .links-links, .links-rechts {
+            display: flex;
             flex-direction: row;
-            gap: 32px; } }
+            gap: 32px; } } 
 
 .terug-home {
     display: flex;
@@ -197,6 +196,7 @@ path {
         letter-spacing: var(--letter-spacing-main); }
 
         p {
+            max-width: 864px;
             font-size: var(--font-size-paragraph); 
             line-height: var(--line-height-s);
             margin-right: 16px;} }   
@@ -336,7 +336,7 @@ path {
  
             #tekst5 {
                 font-size: var(--font-size-paragraph);
-                font-weight: var(--semibold-font-weight);
+                font-weight: var(--standard-font-weight);
                 max-width: 864px; }    
 
 
@@ -449,11 +449,23 @@ path {
     padding-top: 48px;
     padding-bottom: 48px;
     
-    h2 {
+    h3 {
         padding-left: 16px;
         font-size: var(--font-size-s);
         font-weight: var(--standard-font-weight);
+        text-transform: unset;
         padding-bottom: 40px; } }
+
+@media screen and (min-width: 1080px) { 
+
+    .partner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 48px; } 
+        
+        h3 {
+            padding-top: 36px; } }
 
 
 .partner-logos {
@@ -465,6 +477,8 @@ path {
     img { 
         width: 120px;
         height: 120px; }}
+
+@media
 
 
 .logo-inloggen {
