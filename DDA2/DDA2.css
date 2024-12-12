@@ -24,6 +24,14 @@ html {
     path {
         stroke:var(--standard-color) } }
 
+    .button:hover,.button-bold:hover, .button:focus ,.button-bold:focus {
+        color: var(--second-standard-color);
+        box-shadow: inset 300px 0 0 0 var(--changeable-color);
+        border: 2px solid var(--changeable-color); 
+    
+        path {
+            stroke:var(--second-standard-color); } }
+
         
 /* speciafieke styling */
 
@@ -60,7 +68,8 @@ header {
             font-family: var(--secondary-font);
             font-size: var(--font-size-links);
             text-transform: uppercase;
-            color: var(--standard-color); }
+            color: var(--standard-color);
+            text-decoration: none; }
     
             .headerlinkbold, .link-blauw {
                 display: flex;
@@ -101,13 +110,15 @@ margin-right: 16px; }
 
     nav ul { 
         display: flex;
-        justify-content: space-between;
-        gap: 32px; } 
+        justify-content: space-between;  } 
+        
     
         .links-links, .links-rechts {
         display: flex;
         flex-direction: row;
         gap: 32px; } } 
+
+        
 
 
 
@@ -118,6 +129,13 @@ margin-right: 16px; }
     margin-bottom: 100px;
     text-align: center; 
 
+    .search-bar {
+        width: 304px;
+        font-size: var(--font-size-paragraph);
+        border: none; 
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--standard-color);}
+
     .select {
         margin-right: 50px; } }
 
@@ -126,6 +144,7 @@ margin-right: 16px; }
 
 .vacatures-all {
     display: flex;
+    align-items: center;
     flex-direction: column;
     
     .vacatures {
@@ -135,16 +154,20 @@ margin-right: 16px; }
         width: 1312px;
         border-bottom: 2px solid var(--standard-color);
         transition: 0.2s ease-in-out;
-        margin-left: 48px;} 
+        margin-left: 48px; } 
     
         h4 {
             width: 516px; }
 
             p {
-                font-family: var(--secondary-font); }
+                text-transform: uppercase;}
+
+            a {
+                font-size: var(--font-size-subtext); }
                 
             .language {
-                width: 88px; }
+                width: 98px;
+                margin-right: 32px; }
 
             .type, .time, .location {
                 width: 194px; } }
