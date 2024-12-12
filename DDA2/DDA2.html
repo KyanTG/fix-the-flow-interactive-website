@@ -18,6 +18,52 @@
 
 
 <body>
+
+<header>
+
+  <img id="logo" src="content/dda-logo-white.svg" alt="logo dda">
+
+  <div class="hamburger-class">
+    <div class="hamburger" onclick="body.classList.toggle('hamburger-open')">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>    
+    </div>
+   </div>
+    
+  <!-- navigatiebalk -->
+
+    <nav>
+      <ul>
+        <div class="links-links">
+          <li><a class="headerlinkbold" href="#">over ons</a></li>
+          <li><a class="linkheader"  href="#">events</a></li>
+          <li><a class="linkheader"  href="#">publicaties</a></li>
+          <li><a class="linkheader"  href="#">leden</a></li>
+          <li><a class="linkheader"  href="#">vacatures</a></li>
+        </div>
+        
+        <div class="links-rechts">
+          <li><a class="link-blauw link-arrow-blauw" href="#">inloggen          
+
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 3L13.0001 8.0001L8 13.0002" stroke-width="1.5" stroke-miterlimit="4.62023"/>
+          <path d="M3 8L13 8" stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+          </svg></a></li>
+
+         <li><a href="#" class="wordlid-button button">word lid    
+
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path  d="M8 3L13.0001 8.0001L8 13.0002" stroke-width="1.5" stroke-miterlimit="4.62023"/>
+              <path  d="M3 8L13 8"  stroke-width="1.5" stroke-miterlimit="4.62023" stroke-linejoin="round"/>
+            </svg></a></li></div>
+     </ul>
+    </nav>
+</header>
+
 <form class="filters">
 
     <!-- searchbar -->
@@ -26,7 +72,7 @@
 
     <!-- filter voor vacatures -->
 
-    <select class="select" name="vacatures">
+    <!-- <select class="select" name="vacatures">
         <option value="">Soort vacature</option>
         <option value="concept & design">Concept & Design</option>
         <option value="development">Development</option>
@@ -34,20 +80,20 @@
         <option value="sales & marketing">Sales & Marketing</option>
         <option value="staf & management">Staf & Management</option>
         <option value="strategie & ux">Strategie & UX</option>
-    </select>
+    </select> -->
 
     <!-- filter voor taal -->
 
-    <select class="select" name="voertaal">
+    <!-- <select class="select" name="voertaal">
         <option value="">Voertaal</option>
         <option value="eng & nl">Eng & NL</option>
         <option value="eng">Eng</option>
         <option value="nl">NL</option>
-    </select>
+    </select> -->
 
     <!-- filter voor locatie -->
 
-    <select class="select" name="provincie">
+    <!-- <select class="select" name="provincie">
         <option value="">Provincie</option>
         <option value="drenthe">Drenthe</option>
         <option value="flevoland">Flevoland</option>
@@ -60,7 +106,7 @@
         <option value="overijssel">Overijssel</option>
         <option value="zeeland">Zeeland</option>
         <option value="zuid-holland">Zuid-Holland</option>
-    </select>
+    </select> -->
 </form>
 
 <!-- openstaande Vacatures -->
@@ -68,37 +114,37 @@
 <section class="vacatures-all">
     <div class="vacatures vacature-one">
         <h4>Digital Product designer</h4>
-        <p class="language">eng & nl</p>
-        <p class="type">valsplat</p>
-        <p class="time">32-40 uur</p>
-        <p class="location">nieuwersluis</p>
+        <p class="language unordered-lists-links">eng & nl</p>
+        <p class="type unordered-lists-links">valsplat</p>
+        <p class="time unordered-lists-links">24 uur</p>
+        <p class="location unordered-lists-links">nieuwersluis</p>
         <a href="*" class="link">bekijken</a>
     </div>
 
     <div class="vacatures vacature-two">
         <h4>Traffic Manager</h4>
-        <p class="language">eng & nl</p>
-        <p class="type">triple</p>
-        <p class="time">32-40 uur</p>
-        <p class="location">aklmaar</p>
+        <p class="language unordered-lists-links">de</p>
+        <p class="type unordered-lists-links">triple</p>
+        <p class="time unordered-lists-links">32-40 uur</p>
+        <p class="location unordered-lists-links">alkmaar</p>
         <a href="*" class="link">bekijken</a>
     </div>
 
     <div class="vacatures vacature-three">
         <h4>React Frontend Specialist</h4>
-        <p class="language">nl</p>
-        <p class="type">valsplat</p>
-        <p class="time">32-40 uur</p>
-        <p class="location">nieuwersluis</p>
+        <p class="language unordered-lists-links">nl</p>
+        <p class="type unordered-lists-links">valsplat</p>
+        <p class="time unordered-lists-links">16 uur</p>
+        <p class="location unordered-lists-links">nieuwersluis</p>
         <a href="*" class="link">bekijken</a>
     </div>
 
     <div class="vacatures vacature-four">
         <h4>Design lead</h4>
-        <p class="language">eng & nl</p>
-        <p class="type">fabrique</p>
-        <p class="time">32-40 uur</p>
-        <p class="location">amsterdam</p>
+        <p class="language unordered-lists-links">eng & nl</p>
+        <p class="type unordered-lists-links">fabrique</p>
+        <p class="time unordered-lists-links">40 uur</p>
+        <p class="location unordered-lists-links">amsterdam</p>
         <a href="*" class="link">bekijken</a>
     </div>
 </section>
