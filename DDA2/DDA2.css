@@ -142,25 +142,24 @@ margin-right: 16px; }
 
 /* styling & positie vacatures */
 
+
 .vacatures-all {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
     .vacatures {
+        margin-left: 48px;
+        border-bottom: 2px solid var(--standard-color); }
+    
+    .vacatures, .vacatureslink {
         display: flex;
         flex-direction: row;
         align-items: center;
+        text-decoration: none;
+        color: var(--standard-color);
         width: 1312px;
-        border-bottom: 2px solid var(--standard-color);
-        transition: 0.2s ease-in-out;
-        margin-left: 48px; } 
-
-        .vacatures:hover {
-
-            a { 
-                padding-bottom: 3px;
-                border-bottom: 3px solid var(--changeable-color); } }
+        transition: 0.2s ease-in-out; } 
     
         h4 {
             width: 516px; }
