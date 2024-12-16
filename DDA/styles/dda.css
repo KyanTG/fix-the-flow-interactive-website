@@ -267,22 +267,24 @@ path {
         #text3 {
             padding-bottom: 16px;  }
 
-@media all and (min-width: 1080px) {.informatie { 
-    width: 752px; } }
+@media all and (min-width: 1080px) {
+    
+    .informatie { 
+        width: 752px; } 
         
-    @media all and (min-width: 1080px) {#DDAH2 { 
-        padding-top: 48px; } }
+        #DDAH2 { 
+            padding-top: 48px; } 
         
-    @media all and (min-width: 1080px) {#text2 { 
-        width: 528px; 
-        padding-top: 64px; } }
+        #text2 { 
+            width: 528px; 
+            padding-top: 64px; } 
 
-    @media all and (min-width: 1080px) {.informatie-responsive {
-        display:flex;  
-        justify-content: center;
-        max-width: 1312px; } }
+        .informatie-responsive {
+            display:flex;  
+            justify-content: center;
+            max-width: 1312px; } 
 
-        @media all and (min-width: 1080px) {.button-leden { 
+        .button-leden { 
             display:flex;  
             justify-content: flex-start; } }
     
@@ -361,11 +363,13 @@ path {
             outline-offset: -1px; 
             width: 252px;
             height: 252px; } }
+
+        .article-info {
+            position: relative; }
         
         .naam-medewerker {
             font-size: 24px;
             font-weight: 400;
-            padding-top: 24px;
             text-transform: none;
             width: 252px; }   
 
@@ -373,12 +377,12 @@ path {
             font-family: var(--secondary-font);
             text-transform: uppercase;
             font-size: 14px;
-            padding-top: 16px; 
-            padding-bottom: 64px;
             width: 252px; }
 
         .container-links-personen {
             display: flex;
+            position: absolute;
+            bottom: 0;
             flex-direction: row;
             gap: 16px; }    
 
@@ -431,6 +435,10 @@ path {
         article > img {
             width: 256.75px;
             height: 416px; }}
+
+        .article-info {
+            height: 256.75px;
+            padding-top: 24px; }
         
         .naam-medewerker  {
             width: 256.75px;
@@ -439,7 +447,7 @@ path {
         
         .infopersoon {
             width: 256.75px;
-            font-size: var(--font-size-paragraph); }}
+            font-size: var(--font-size-paragraph); } }
 
 
 .partner {
@@ -462,10 +470,10 @@ path {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding-right: 48px; } 
+        padding-right: 48px; 
         
         h3 {
-            padding-top: 36px; } }
+            padding-top: 36px; } } }
 
 
 .partner-logos {
@@ -478,10 +486,11 @@ path {
         width: 120px;
         height: 120px; }}
 
-@media
+
 
 
 .logo-inloggen {
+
     display: flex;
     flex-direction: column;
     height: 240px; 
