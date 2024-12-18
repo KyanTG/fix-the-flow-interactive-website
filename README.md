@@ -32,9 +32,23 @@ Ook kan je bijvoorbeeld zoeken op het aantal uur dat je per week wilt werken of 
 
 Ik laat hieronder een video zien waar je kan zien hoe de pagina er werkend uitziet.<br><br>
 
+<<<<<<< HEAD
 ### Link Website
 
 <a href="https://kyantg.github.io/fix-the-flow-interactive-website/DDA2/DDA2.html">Live Website</a>
+=======
+
+
+
+
+https://github.com/user-attachments/assets/269a8211-65ad-4c64-9dbc-c7a5f4952ec3
+
+
+
+
+<video src="DDA2/content/vacature-pagina-video.mp4"><br>
+
+>>>>>>> 88105fa4cd35df759053b2eb08fb934caed67f10
 
 
 
