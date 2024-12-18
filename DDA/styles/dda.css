@@ -269,24 +269,29 @@ path {
 
 @media all and (min-width: 1080px) {
     
-    .informatie { 
-        width: 752px; } 
-        
-        #DDAH2 { 
-            padding-top: 48px; } 
-        
-        #text2 { 
-            width: 528px; 
-            padding-top: 64px; } 
+.informatie { 
+    width: 752px; } 
+    
+    #DDAH2 { 
+        padding-top: 48px; } 
+    
+    #text2 { 
+        width: 528px; 
+        padding-top: 64px; } 
 
-        .informatie-responsive {
-            display:flex;  
-            justify-content: center;
-            max-width: 1312px; } 
+    .informatie-responsive {
+        display:flex;  
+        justify-content: center;
+        max-width: 1312px; } 
 
-        .button-leden { 
-            display:flex;  
-            justify-content: flex-start; } }
+    .button-leden { 
+        display:flex;  
+        justify-content: flex-start; } }
+
+    @media screen and (min-width: 1430px) {
+
+        #text2 {
+            padding-left: 48px; } }
     
 
 .logoscroller {
