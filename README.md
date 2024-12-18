@@ -10,8 +10,6 @@ DDA Vacature's is een vacature bedrijf waar je vacatures vind voor bij creatieve
 
 In sprint 5 heb ik gefocust op het maken van een interactie voor de DDA vacature pagina, ik heb hiervoor een werkende filter functie gemaakt die werkt op: Naam, taal, ( werk ) uren en locatie. Ik ben deze sprint pas begonnen met het ontwerpen van deze pagina. De website is nog niet responsive, en werkt momenteel alleen nog op desktop ( dit omdat het makkelijker was met testen van de website tijdens de lessen ).<br>
 
-<img src="DDA2/content/vacature-pagina.png"><br>
-
 ### De Pagina
 
 Zo ziet de pagina eruit zodra je erop komt.
