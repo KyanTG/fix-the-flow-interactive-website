@@ -12,13 +12,21 @@ In sprint 5 heb ik gefocust op het maken van een interactie voor de DDA vacature
 
 <img src="DDA2/content/vacature-pagina.png"><br>
 
+### De Pagina
+
 Zo ziet de pagina eruit zodra je erop komt, als je klikt op zoek een vacature of agency... komt er een zoekbalk tevoorschijn en daarin kan je de vacature naam zoeken waar je naar op zoek bent! Voorbeeld: je zoekt een vacature als UX Designer, dan ziet dat er zo uit. Mocht je het zoeken toch willen annuleren? Dan kan je op het kruisje klikken rechts van het zoekbalkje!<br><br>
 
+### Zoekfunctie Naam
+
 <img src="DDA2/content/vacature-pagina-zoekend.png"><br>
+
+### Zoekfunctie Uren
 
 Ook kan je bijvoorbeeld zoeken op het aantal uur dat je per week wilt werken of de locatie / taal, dit ziet er dan zo uit.<br><br>
 
 <img src="DDA2/content/vacature-pagina-uren.png"><br>
+
+### Video Pagina
 
 Ik laat hieronder een video zien waar je kan zien hoe de pagina er werkend uitziet.<br><br>
 
