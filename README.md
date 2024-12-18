@@ -44,7 +44,7 @@ https://github.com/user-attachments/assets/269a8211-65ad-4c64-9dbc-c7a5f4952ec3
 ## HTML
 
 De HTML is geschreven volgens de manier die wij hebben aangeleerd bij de HVA, ik heb gezorgd dat de code semantisch is zodat er genoeg ruimte zit zodat de code duidelijk is en goed leesbaar blijft.
-Ik heb voor de filter gebruikt gemaakt van een <form> met daarin een <input> voor de filter functie.
+Ik heb voor de filter gebruikt gemaakt van een form met daarin een input voor de filter functie.
 
 ## CSS
 
