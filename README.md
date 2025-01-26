@@ -46,18 +46,13 @@ https://github.com/user-attachments/assets/269a8211-65ad-4c64-9dbc-c7a5f4952ec3
 De HTML is geschreven volgens de manier die wij hebben aangeleerd bij de HVA, ik heb gezorgd dat de code semantisch is zodat er genoeg ruimte zit zodat de code duidelijk is en goed leesbaar blijft.
 Ik heb voor de filter gebruikt gemaakt van een form met daarin een input voor de filter functie.
 
-hieronder de code
-
-<form class="filters">
-
-    <!-- searchbar -->
-
-    <input class="search-bar" type="search" placeholder="zoek een vacature of agency...">
-
+https://github.com/KyanTG/fix-the-flow-interactive-website/blob/6abf29b4e336dc7f5d1b45ab20fa3e37e33b77db/DDA2/DDA2.html#L78-L82
     
 ## CSS
 
-De CSS is geschreven op volgorde van de website, de website is alleen niet mobile first gebouwd omdat dit een subopdracht was waar ik een werkende filter moest maken waarbij de prioriteit bij javascript lag en niet bij responsiveness. Ik heb niet speciale CSS toegepast ik heb alleen de zoekfilter gemaakt met een border none en daarna een border bottom 1px
+De CSS is geschreven op volgorde van de website, de website is alleen niet mobile first gebouwd omdat dit een subopdracht was waar ik een werkende filter moest maken waarbij de prioriteit bij javascript lag en niet bij responsiveness. Ik heb niet speciale CSS toegepast ik heb alleen de zoekfilter gemaakt met een border none en daarna een border bottom 1px.
+
+https://github.com/KyanTG/fix-the-flow-interactive-website/blob/6abf29b4e336dc7f5d1b45ab20fa3e37e33b77db/DDA2/DDA2.css#L127-L140
 
 
 
@@ -65,25 +60,8 @@ De CSS is geschreven op volgorde van de website, de website is alleen niet mobil
 
 De JS is op goede manier geschreven, ik heb als eerst met een querySelector de searchbar en de vacatures aangesproken. Daarna heb ik een addEventListener toegevoegd op de input, daarna heb ik ervoor gezorgd door middel van een function dat het menu werkt.
 
-hieronder de code
 
-// zorgt dat javascript weet wat de zoekbar is
-
-const search = document.querySelector('.search-bar'),
-vacature_rows = document.querySelectorAll('.vacatures');
-
-// zorgt dat er een event aan toegevoegd word in dit geval een search filter
-
-search.addEventListener('input', searchTable);
-
-// zorgt dat er een functie aan zit in dit geval dat de zoekfilter werkt op naam / data
-
-function searchTable() {
-    vacature_rows.forEach( (row, i) => {
-        let vacature_data = row.textContent.toLocaleLowerCase(),
-            search_data = search.value.toLocaleLowerCase();
-
-            row.classList.toggle('hide',vacature_data.indexOf(search_data) < 0); } ) }
+https://github.com/KyanTG/fix-the-flow-interactive-website/blob/6abf29b4e336dc7f5d1b45ab20fa3e37e33b77db/DDA2/DDA2.js#L1-L17
 
 
 
